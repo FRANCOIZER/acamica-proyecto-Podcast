@@ -1,0 +1,102 @@
+//INICIO about-us 
+.section-cel {
+    .image-container{
+        max-width: 360px;
+        width: 100%;
+        line-height: 0;
+        position: relative;
+        margin: -75px auto 27px;
+        z-index: 2;
+        .phone-image {
+            width: 100%;
+        }
+    }
+    .content {
+        padding: 16px;
+        .title{
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            color: #060A24;
+            letter-spacing: 0;
+            line-height: 42px;
+            margin-bottom: 8px;
+        }
+        .description{
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 14px;
+            color: #060A24;
+            letter-spacing: 0;
+            line-height: 22px;
+            &:first-child {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+//FINAL about-us 
+
+// MEDIA QUERIES 1365px
+@media (min-width: 1365px){
+// about-us inicio
+    .section-cel {
+        max-width: 1000px;
+        margin: -120px auto 0;
+        display: flex;
+        align-items: center;
+        .image-container{
+            margin-right: 62px;
+            max-width: 457px;
+            width: 100%;
+            margin: auto ;
+        }
+        .content {
+            padding: 0;
+            .title {
+                font-size: 48px;
+                line-height: 48px;
+                margin-bottom:24px;
+            }
+            .description {
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 10px;
+                max-width: 464px;
+                }
+            }
+        
+    }
+// about-us terminado
+}
+// MEDIA QUERIES 1440px
+@media (min-width: 1440px){  
+// about-us inicio
+    .section-ce{
+        max-width: 1000px;
+        margin: -120px auto 0;
+        display: flex;
+        align-items: center;
+        .image-container{
+            margin-right: 62px;
+            max-width: 457px;
+            width: 100%;
+            margin: auto ;
+        }
+        .content {
+            padding: 0;
+            .title {
+                font-size: 48px;
+                line-height: 48px;
+                margin-bottom:24px;
+            }
+            .description {
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 10px;
+                max-width: 464px;
+                }
+            }
+        
+    }
+// about-us terminado
+}
